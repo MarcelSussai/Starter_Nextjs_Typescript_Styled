@@ -10,7 +10,7 @@ const Home = () => {
     <Head title="Home" />
     <Header />
     <Main>
-      <h1>Teste</h1>
+      <h1>Titulo Corpo</h1>
     </Main>
   </>
 );

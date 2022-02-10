@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const ContainerHeader = styled.div`
+const ContainerHeader = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -12,10 +12,12 @@ const ContainerHeader = styled.div`
   font-size: 32px;
 `;
 
+
+
 const Header = () => {
   return (
   <ContainerHeader>
-    Teste
+    Header de Exemplo
   </ContainerHeader>
 );
 
