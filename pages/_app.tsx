@@ -1,6 +1,7 @@
 import { ThemeProvider } from 'styled-components'
 import CtxProvider from '../src/contexts/ctxGlobal'
-import { GlobalStyle, theme } from '../stylesConfig'
+import GlobalStyle from '../src/styles/GlobalStyle'
+import theme from '../src/styles/theme'
 
 
 

@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -9,7 +9,20 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
-  body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul[class],
+  ol[class],
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
     margin: 0;
   }
 
@@ -70,8 +83,4 @@ export const GlobalStyle = createGlobalStyle`
   }
 `
 
-export const theme = {
-  colors: {
-    primary: '#1d1d1f',
-  },
-}
+export default GlobalStyle

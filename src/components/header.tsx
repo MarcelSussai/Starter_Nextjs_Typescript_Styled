@@ -7,7 +7,7 @@ const ContainerHeader = styled.header`
   justify-content: flex-start;
   align-items: center;
   background: #1188aa;
-  color: #eee;
+  color: ${({theme}) => theme.colors.yellow};
   padding: 16px;
   font-size: 32px;
 `;
